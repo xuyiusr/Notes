@@ -12,9 +12,7 @@
 
 4 . 修改配置文件/etc/profile
 
-     a. 修改ulimit -S -c 0 > /dev/null 2>&1
-
-为ulimit -S -c unlimited > /dev/null 2>&1 。没有则直接添加。 
+     a. 修改ulimit -S -c 0 > /dev/null 2>&1 为 ulimit -S -c unlimited > /dev/null 2>&1 。没有则直接添加。
 
      b . 执行命令生效该文件：source /etc/profile
 
